@@ -6,6 +6,7 @@ export default {
 
         white: "#ffff",
         purple: "#800080",
+        red: "#ff0000",
 
         gray_100: "#999591",
         gray_200: "#666360"
