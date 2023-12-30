@@ -2,8 +2,8 @@ import styled from "styled-components"
 
 export const Container = styled.button`
     width: 100%;
-    background-color: ${({themer}) => themer.colors.purple};
-    color: ${({themer}) => themer.colors.background_200};
+    background-color: ${({ theme }) => theme.colors.purple};
+    color: ${({theme}) => theme.colors.background_200};
 
     height: 56px;
     border: 0;

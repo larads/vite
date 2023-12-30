@@ -8,7 +8,7 @@ export const Container = styled.header`
 
     border-bottom-width: 1px;
     border-bottom-style: solid;
-    border-bottom-color: ${({themer}) => themer.colors.background_200};
+    border-bottom-color: ${({theme}) => theme.colors.background_200};
 
     display: flex;
     justify-content: space-between;
@@ -34,7 +34,7 @@ export const Profile = styled.div`
 
         span {
             font-size: 14px;
-            color: ${({themer}) => themer.colors.gray_100};
+            color: ${({theme}) => theme.colors.gray_100};
         }
 
         strong {

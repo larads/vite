@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.button`
     background: none;
-    color: ${({theme }) => ThemeContext.colors.purple};
+    color: ${({theme}) => theme.colors.purple};
 
     border: none;
     font-size: 16px;
