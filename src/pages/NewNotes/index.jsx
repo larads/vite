@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 import { Container, Form } from './styles';
 import { Header } from '../../components/Header';
 import { Input } from '../../components/Input';
@@ -14,7 +16,9 @@ export function NewNotes() {
                 <Form>
                     <header>
                         <h1>Criar Nota</h1>
-                        <a href='/'>Voltar</a>
+                        <Link to='/'>
+                            Voltar
+                        </Link>
                     </header>
                     <Input placeholder="Título" />
                     <Textarea placeholder="Observações" />

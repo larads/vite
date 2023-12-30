@@ -15,14 +15,17 @@ export function Home() {
             </Brand>
 
             <Header />
+
             <Menu>
                 <li><ButtonText title="Todos" isActive /></li>
                 <li><ButtonText title="React" isActive /></li>
                 <li><ButtonText title="Node" isActive /></li>
             </Menu>
+
             <Search>
                 <Input placeholder="Pesquisar pelo Título" icon={FiSearch}/>
             </Search>
+
             <Content>
                 <Section title="Minhas Notas">
                     <Note data={{
@@ -35,7 +38,8 @@ export function Home() {
                     />
                 </Section>
             </Content>
-            <NewNote>
+
+            <NewNote to="/newNote">
                 <FiPlus />
                     Criar Nota
             </NewNote>

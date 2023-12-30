@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
     width: 100%;
-    height: 100%;
+    height: 100vh;
 
     display: grid;
     grid-template-rows: 105px auto;
@@ -47,7 +47,7 @@ export const Links = styled.ul`
         margin-top: 12px;
 
       a {
-            color: ${({theme}) => theme.colors.white};
+            color: ${({ theme }) => theme.colors.white};
         }
     }
 `;

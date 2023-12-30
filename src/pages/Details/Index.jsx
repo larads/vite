@@ -15,17 +15,20 @@ export default function Details() {
         <Content>
           <ButtonText title="Excluir Nota" />
 
-          <h1>Introdução ao React</h1>
+          <h1>
+            Introdução ao React
+          </h1>
+
           <p> 
             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
             Quae iste assumenda sit. Aliquid, voluptate, itaque harum doloribus aliquam perferendis at, rem voluptas expedita reiciendis ex.
             Fugiat eaque unde et tenetur.
           </p>
+
           <Section title="Links úteis">
             <Links>
               <li>Item 1</li>
               <li>Item 2</li>
-              <li>Item 3</li>
             </Links>
           </Section>
           
@@ -33,7 +36,7 @@ export default function Details() {
             <Tag title="nodejs"/>
           </Section>
 
-          <Button title="voltear"/>
+          <Button title="voltar" />
         </Content>
       </main>
     </Container>
