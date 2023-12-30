@@ -18,25 +18,58 @@ export const Container = styled.div`
 
 export const Brand = styled.div`
     grid-area: brand;
-    background: red;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: ${({theme}) => theme.colors.background_300};
+    
+    background-color: ${({theme}) => theme.colors.background_100};
+
+    > h1 {
+        font-size: 24px;
+        color: ${({ theme }) => theme.colors.purple};
+    }
 `;
 
 export const Menu = styled.ul`
     grid-area: menu;
-    background: black;
+    background-color: ${({theme}) => theme.colors.background_100};
+
+    padding-top: 64px;
+    text-align: center;
+
+    > li {
+        margin-bottom: 24px;
+    }
 `;
 
 export const Search = styled.div`
     grid-area: search;
-    background: violet;
+    padding: 64px 64px 0;
 `;
 
 export const Content = styled.div`
     grid-area: content;
-    background: blue;
+    padding: 0 64px;
+
+    overflow-y: auto;
 `;
 
 export const NewNote = styled.div`
     grid-area: newnote;
-    background: yellow;
+
+    background-color: ${({ theme }) => theme.colors.purple};
+    border: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    svg {
+        margin-right: 8px;
+    }
 `;
